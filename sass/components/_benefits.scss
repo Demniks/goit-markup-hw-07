@@ -1,0 +1,38 @@
+.benefits {
+  padding-bottom: 0;
+}
+
+.features-list {
+  display: flex;
+  gap: 30px;
+}
+
+.features-list__subtitle {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--top-color);
+}
+
+.features-list__item {
+  flex-basis: calc((100% - 90px) / 4);
+}
+
+.features-list__text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--activ-logo-color);
+}
+
+.features-list__icon {
+  padding: 25px 100px;
+  width: 270px;
+  height: 120px;
+  background-color: var(--second-bgd-color);
+  border-radius: 4px;
+}

@@ -1,0 +1,42 @@
+:root {
+  --top-color: #212121;
+  --accent-color: #2196f3;
+  --logo-color: #188ce8;
+  --bgd-color: #ffffff;
+  --activ-logo-color: #757575;
+  --adress-color: rgba(255, 255, 255, 0.6);
+  --dark-bgd-color: #2f303a;
+  --second-bgd-color: #f5f4fa;
+  --text-logo-color: #000000;
+}
+
+body {
+  color: var(--top-color);
+  font-family: "Roboto", sans-serif;
+  background-color: var(--bgd-color);
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
